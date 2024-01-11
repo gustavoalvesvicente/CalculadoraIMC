@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    background-image: url(../Imagens/fundo\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #121212;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;  
+
+} 
+
+#container {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+
+}
+
+#img img {
+    width: 32rem;
+  
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: rgba(33, 33, 33, 0.30);
+    border-radius: 50px;
+    color: #FFFFFF
+    
+    
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#title {
+    font-size: 2.25rem;
+    position: relative;
+
+}
+
+#title::after {
+position: absolute;
+content: "";
+background-color: #FF6953;
+width: 8rem;
+height: 3px;
+bottom: 0;
+left: 0;
+border-radius: 3px;
+}
+
+#imput-box {
+font-size: 1.1rem;
+font-weight: 500;
+color:#D9D9D9
+    
+}
+
+.imput-field {
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #D9D9D9;
+padding: 0.3rem;
+border-radius: 50px;
+margin-top: 3px;
+
+}
+
+.imput-field span,
+
+.imput-field i {
+    font-size: 1.3rem;
+    padding: 0.6rem 1rem;
+    color: #FF6953
+    
+}
+
+.imput-field input {
+    background-color: transparent;
+    border: none;
+    padding: 0 0.5rem;
+    width: 100%;
+    font-size: 1.3rem;
+    color:#121212;
+
+    
+}
+
+.imput-field input::-webkit-outer-spin-button,
+.imput-field input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+.imput-field input:focus {
+    outline: none;
+}
+
+#calculaitor {
+    border: none;
+    border-radius: 50px;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #FF6953;
+    color:#FFFFFF
+    
+    
+}
+
+#result {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    border-top: 1px solid #ffffff34 ;
+    padding: 0.75rem 0;
+}
+
+#bmi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.25rem;
+}
+
+#bmi span:last-child {
+    font-size: 0.875rem;
+    color:#D9D9D9;
+}
+
+#description {
+    width: 15.5rem;
+}
+
+.more_info {
+    border-top: 1px solid #ffffff34 ;
+    padding-top: 1.5rem;
+}
+
+.more_info a {
+    color: #FF6953;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: 0.5s;
+} 
+
+.more_info a:hover {
+    color:#D9D9D9;
+}
+
+.hidden {
+    display: none;
+}
+
+.normal {
+    color:rgba(51, 255, 10, 0.438)
+}
+
+.attention {
+    color:#dc2626
+}
